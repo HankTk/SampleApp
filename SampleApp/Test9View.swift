@@ -8,6 +8,7 @@
 import SwiftUI
 import AVKit
 
+#Preview {Test9View()}
 struct Test9View: View, Previewable {
 
     private let player: AVPlayer
@@ -42,8 +43,3 @@ struct Test9View: View, Previewable {
     }
 
 }
-
-#Preview {
-    Test9View()
-}
-

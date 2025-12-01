@@ -8,6 +8,7 @@
 import PhotosUI
 import SwiftUI
 
+#Preview {Test6View()}
 struct Test6View: View, Previewable {
 
     @State private var pickerItem: PhotosPickerItem?
@@ -31,8 +32,3 @@ struct Test6View: View, Previewable {
     }
 
 }
-
-#Preview {
-    Test6View()
-}
-

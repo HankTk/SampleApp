@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+#Preview {Test8View()}
 struct Test8View: View, Previewable {
 
     @State private var selectedColor = Color.red
@@ -50,8 +51,3 @@ struct Test8View: View, Previewable {
     }
 
 }
-
-#Preview {
-    Test8View()
-}
-

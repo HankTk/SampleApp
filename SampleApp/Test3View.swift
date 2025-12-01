@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+#Preview {Test3View()}
 struct Test3View: View, Previewable {
 
     @State private var num1 = "0"
@@ -62,8 +63,3 @@ struct Test3View: View, Previewable {
     }
 
 }
-
-#Preview {
-    Test3View()
-}
-

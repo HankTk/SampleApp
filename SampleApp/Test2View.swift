@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+#Preview {Test2View()}
 struct Test2View: View, Previewable {
 
     @State private var randomNumber = 1
@@ -56,8 +57,3 @@ struct Test2View: View, Previewable {
     }
 
 }
-
-#Preview {
-    Test2View()
-}
-

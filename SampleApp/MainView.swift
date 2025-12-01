@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+#Preview {MainView()}
 struct MainView: View, Previewable {
     
     static var previewWrappedInNavigation: Bool {
@@ -63,8 +64,4 @@ struct MainView: View, Previewable {
         }
     }
 
-}
-
-#Preview {
-    MainView()
 }

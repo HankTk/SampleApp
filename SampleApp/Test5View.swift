@@ -8,6 +8,7 @@
 import SwiftUI
 import MapKit
 
+#Preview {Test5View()}
 struct Test5View: View, Previewable {
 
     @State var showText = false
@@ -99,8 +100,3 @@ struct MapView: UIViewRepresentable {
         }
     }
 }
-
-#Preview {
-    Test5View()
-}
-

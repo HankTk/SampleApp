@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+#Preview {Test4View()}
 struct Test4View: View, Previewable {
 
     var body: some View {
@@ -60,8 +61,3 @@ struct Test4View: View, Previewable {
     }
 
 }
-
-#Preview {
-    Test4View()
-}
-

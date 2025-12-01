@@ -24,6 +24,7 @@ struct Result: Codable {
     var zipcode: String
 }
 
+#Preview {Test7View()}
 struct Test7View: View, Previewable {
 
     @State private var zipCode = ""
@@ -93,8 +94,3 @@ struct Test7View: View, Previewable {
     }
 
 }
-
-#Preview {
-    Test7View()
-}
-
