@@ -1,17 +1,21 @@
 //
-//  SampleAppApp.swift
-//  SampleApp
+//  SamplesApp.swift
+//  SamplesApp
 //
-//  Created by Hidenori Takaku on 12/1/25.
+//  Created by Hidenori Takaku on 12/27/24.
 //
 
 import SwiftUI
 
 @main
-struct SampleAppApp: App {
+struct SamplesApp: App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
     }
+
 }
+
