@@ -95,6 +95,6 @@ struct Test7View: View, Previewable {
 }
 
 #Preview {
-    Test7View.previewContent()
+    Test7View()
 }
 

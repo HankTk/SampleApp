@@ -101,6 +101,6 @@ struct MapView: UIViewRepresentable {
 }
 
 #Preview {
-    Test5View.previewContent()
+    Test5View()
 }
 

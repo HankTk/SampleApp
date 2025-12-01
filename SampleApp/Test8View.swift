@@ -52,6 +52,6 @@ struct Test8View: View, Previewable {
 }
 
 #Preview {
-    Test8View.previewContent()
+    Test8View()
 }
 

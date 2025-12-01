@@ -33,6 +33,6 @@ struct Test6View: View, Previewable {
 }
 
 #Preview {
-    Test6View.previewContent()
+    Test6View()
 }
 

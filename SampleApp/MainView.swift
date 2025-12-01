@@ -66,5 +66,5 @@ struct MainView: View, Previewable {
 }
 
 #Preview {
-    MainView.previewContent()
+    MainView()
 }

@@ -23,6 +23,6 @@ struct Test1View: View, Previewable {
 }
 
 #Preview {
-    Test1View.previewContent()
+    Test1View()
 }
 
