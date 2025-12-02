@@ -35,7 +35,8 @@ struct MainView: View, Previewable {
         TestItem(id: 6, title: "Test 6: 画像ピッカー", destination: Test6View()),
         TestItem(id: 7, title: "Test 7: 郵便番号検索", destination: Test7View()),
         TestItem(id: 8, title: "Test 8: UIコンポーネント", destination: Test8View()),
-        TestItem(id: 9, title: "Test 9: 動画プレーヤー", destination: Test9View())
+        TestItem(id: 9, title: "Test 9: 動画プレーヤー", destination: Test9View()),
+        TestItem(id: 10, title: "Test A: ボタンスタイル", destination: TestAView())
     ]
 
     var body: some View {
