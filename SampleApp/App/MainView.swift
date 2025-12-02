@@ -36,7 +36,9 @@ struct MainView: View, Previewable {
         TestItem(id: 7, title: "Test 7: 郵便番号検索", destination: Test7View()),
         TestItem(id: 8, title: "Test 8: UIコンポーネント", destination: Test8View()),
         TestItem(id: 9, title: "Test 9: 動画プレーヤー", destination: Test9View()),
-        TestItem(id: 10, title: "Test A: ボタンスタイル", destination: TestAView())
+        TestItem(id: 10, title: "Test A: ボタンスタイル", destination: TestAView()),
+        TestItem(id: 11, title: "Qiita Client: 記事検索", destination: ItemList()),
+        TestItem(id: 12, title: "Todo: タスク管理", destination: TodoView())
     ]
 
     var body: some View {
